@@ -1,0 +1,39 @@
+predicate upperbound(s: seq<int>, max: int) {
+	forall i :: 0 <= i < |s| ==> s[i] <= max
+}
+
+predicate member(s: seq<int>, n: int) {
+	exists i :: 0 <= i <|s| && s[i] == n
+}
+
+method max(s: seq<int>) returns (max:int)
+	requires |s| > 0
+	ensures upperbound(s, max) && member(s,max)
+{
+	max := s[0];
+	var i := 1;
+	while(i < |s|)
+		invariant 0 < i <= |s|
+		invariant upperbound(s[..i], max)
+		invariant member(s[..i], max)
+	{
+		if (s[i] > max) { max := s[i];	}
+		i := i + 1;
+	}
+}
+
+method maxInd(s: seq<int>) returns (maxind:nat)
+	requires |s| > 0
+	ensures 0<=maxind<|s|
+	ensures upperbound(s, s[maxind])
+{
+	maxind := 0;
+	var i := 1;
+	while(i < |s|)
+	{
+		if (s[i] > s[maxind]) { maxind := i;	}
+		i := i + 1;
+	}
+}
+
+

@@ -1,0 +1,4 @@
+https://www.sharelatex.com/learn/Learn_LaTeX_in_30_minutes
+http://overleaf.com/
+https://studentprojects.scss.tcd.ie/
+https://www.scss.tcd.ie/Vasileios.Koutavas/teaching/cs4004-4504/mt1718/
