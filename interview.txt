@@ -1,0 +1,12 @@
+Tell me aobout yourself.
+
+My name is caolan, im from dublin have lived here all my life. Ive had an interest in technology from a very young age. What started as using the internet to search for cheat
+codes for games when i was younger, resultd in me becoming very familiar with using the internet, navigating the file system as well understanding different parts of the operating system.
+In school maths was always my strongest subject which I lead me to study applied maths and physics as well afor the leaving cert. Computer science was an obvious choice for me in college
+as I had an aptitude for problem solving as well as an interest in the subject. Apart from that my hobbies include playing the drums, playing games as well as socialising with friends whenever I can.
+
+I have had professional experience working as a Data  analyst for ey this summer, I worked on several different projects during my time there, including building
+ a skills database for the data analytics department to compare emplopyees skills across different team/ professions etc. I also worked on a proposition for the HSE analysing hospital
+data and formulating visualisations and reports and finally during the summer internship business challenge, I built an application to demonstrate the efficiancy of
+Augmented reality for displaying scatter plots in 3dimensions.
+
